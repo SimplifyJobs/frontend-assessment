@@ -38,7 +38,7 @@ The designs for the three pages can be found in this [Figma file](https://www.fi
 * `/dashboard/card`
   * Following the `Card page` design, create a page that uses a side navigation bar layout with the main content showing a grid of cards of the user's favorite items. Use swr to load the data client side from the mock API you made in step 1. Before the data is loaded, show a loading icon in place of the grid. The card items do not need to have any functionality other than when clicking the View button it will take you to the /item/[id] page of its id. The appearace/UI of the top navigation is not important and does not need to match the design if it is time consuming.  
 * `/item/[id]`
-  * Following the `Detail page` design, create a page with the Catch-all Segment to show details of a certain item. This page can use either layout configuration (Route groups may be helpful) and does not need to contain all text content from the design. This page should be Server-Side Rendered with NextJS. Load the items details from the API and pass it to the page.
+  * Following the `Detail page` design, create a page with the Catch-all Segment to show details of a certain item. This page can use either layout configuration (Route groups may be helpful) and does not need to contain all text content from the design. This page should be Server-Side Rendered with NextJS - load the items details from the API and pass it to the page.
 
 # Submission
 
