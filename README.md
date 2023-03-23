@@ -23,7 +23,11 @@ Fork this repo to get started. We've provided a starter project for you with Rea
 
 1. Mock ecommerce API
 
-Using the api route feature in mock a route for getting a list of favorite items and a route for getting details of an item from its ID. We've provided a json file with mock data to use called `data.json`. Feel free to modify it or add to it if you wish.
+Using the api route feature in NextJS mock the following routes:
+* Getting a list of favorite items
+* Getting details of an item from its ID
+
+We've provided a json file with mock data to use called `data.json`. Feel free to modify it or add to it if you wish. Though we are't expecting you to do error handling, you may add error responses to the api if you have time.
 
 2. Make three pages using NextJS App Router format. Implement a root layout and individual layout files where needed.
 
