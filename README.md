@@ -19,19 +19,22 @@ The goal of this exercise is to evaulate your ability to:
 
 # Instructions
 
-Fork this repo to get started. We've provided a starter project for you with React 18, Typescript, (NextJS 13)[https://beta.nextjs.org/docs/getting-started], (TailwindCSS)[https://tailwindcss.com/docs/installation], and (SWR)[https://swr.vercel.app/docs/getting-started] already added and default configured. Be sure to read through the docs for these libraries if you are unfamiliar. You're also welcome to use any other packages if you'd like, just be sure to explain why you decided to use them and meet all the project requirements with the provided stack.
+Fork this repo to get started. We've provided a starter project for you with React 18, Typescript, [NextJS 13](https://beta.nextjs.org/docs/getting-started), [TailwindCSS](https://tailwindcss.com/docs/installation), and [SWR](https://swr.vercel.app/docs/getting-started) already added and default configured. Be sure to read through the docs for these libraries if you are unfamiliar. You're also welcome to use any other packages if you'd like, just be sure to explain why you decided to use them and meet all the project requirements with the provided stack.
 
 1. Mock ecommerce API
 
-Using the api route feature in mock a route for getting a list of favorite items and a route for getting details of an item from its ID. We've provided a json file with mock data to use called 'data.json'. Feel free to modify it or add to it if you wish.
+Using the api route feature in mock a route for getting a list of favorite items and a route for getting details of an item from its ID. We've provided a json file with mock data to use called `data.json`. Feel free to modify it or add to it if you wish.
 
-2. Make three pages using NextJS App Router format.
+2. Make three pages using NextJS App Router format. Implement a root layout and individual layout files where needed.
 
-The designs for the three pages can be found in this (Figma file)[https://www.figma.com/file/lUbwgHr7OTh4IEf1Y4szwf/NextJS-Ecommerce?node-id=0%3A1&t=bHXi1DmZpSYk17Wd-1]. 
+The designs for the three pages can be found in this [Figma file](https://www.figma.com/file/lUbwgHr7OTh4IEf1Y4szwf/NextJS-Ecommerce?node-id=0%3A1&t=bHXi1DmZpSYk17Wd-1). Implement the designs, creating components where it makes sense and following best practice organization. 
 
 * /dashboard/list
+  * Following the `List page` design, create a page that uses a top navigation bar layout with the main content showing a list of the user's favorite items. Use swr to load the data client side from the mock API you made in step 1. Before the data is loaded, show a loading icon in place of the list. The list items do not need to have any functionality other than when clicking on an item it will take you to the /item/[id] page of its id. The appearace/UI of the top navigation is not important and does not need to match the design if it is time consuming. 
 * /dashboard/card
+  * Following the `Card page` design, create a page that uses a side navigation bar layout with the main content showing a grid of cards of the user's favorite items. Use swr to load the data client side from the mock API you made in step 1. Before the data is loaded, show a loading icon in place of the grid. The card items do not need to have any functionality other than when clicking the View button it will take you to the /item/[id] page of its id. The appearace/UI of the top navigation is not important and does not need to match the design if it is time consuming.  
 * /item/[id]
+  * Following the `Detail page` design, create a page with the Catch-all Segment to show details of a certain item. This page can use either layout configuration and does not need to contain all text content from the design. This page should be Server-Side Rendered with NextJS. Load the items details from the API and pass it to the page.
 
 # Submission
 
