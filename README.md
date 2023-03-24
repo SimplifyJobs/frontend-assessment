@@ -34,11 +34,18 @@ We've provided a json file with mock data to use called `data.json`. Feel free t
 The designs for the three pages can be found in this [Figma file](https://www.figma.com/file/lUbwgHr7OTh4IEf1Y4szwf/NextJS-Ecommerce?node-id=0%3A1&t=bHXi1DmZpSYk17Wd-1). Implement the designs, creating components where it makes sense and following best practice organization. 
 
 * `/dashboard/list`
-  * Following the `List page` design, create a page that uses a top navigation bar layout with the main content showing a list of the user's favorite items. Use swr to load the data client side from the mock API you made in step 1. Before the data is loaded, show a loading icon in place of the list. The list items do not need to have any functionality other than when clicking on an item it will take you to the /item/[id] page of its id. The appearace/UI of the top navigation is not important and does not need to match the design if it is time consuming. 
+  * Following the `List page` design, create a page that uses a top navigation bar layout with the main content showing a list of the user's favorite items. 
+  * Use swr to load the data client side from the mock API you made in step 1. Before the data is loaded, show a loading icon in place of the list. 
+  * The list items do not need to have any functionality other than when clicking on an item it will take you to the /item/[id] page of its id. 
+  * The appearace/UI of the top navigation is not important and does not need to match the design if it is time consuming. 
 * `/dashboard/card`
-  * Following the `Card page` design, create a page that uses a side navigation bar layout with the main content showing a grid of cards of the user's favorite items. Use swr to load the data client side from the mock API you made in step 1. Before the data is loaded, show a loading icon in place of the grid. The card items do not need to have any functionality other than when clicking the View button it will take you to the /item/[id] page of its id. The appearace/UI of the top navigation is not important and does not need to match the design if it is time consuming.  
+  * Following the `Card page` design, create a page that uses a side navigation bar layout with the main content showing a grid of cards of the user's favorite items. 
+  * Use swr to load the data client side from the mock API you made in step 1. Before the data is loaded, show a loading icon in place of the grid. 
+  * The card items do not need to have any functionality other than when clicking the View button it will take you to the /item/[id] page of its id. 
+  * The appearace/UI of the top navigation is not important and does not need to match the design if it is time consuming.  
 * `/item/[id]`
-  * Following the `Detail page` design, create a page with the Catch-all Segment to show details of a certain item. This page can use either layout configuration (Route groups may be helpful) and does not need to contain all text content from the design. This page should be Server-Side Rendered with NextJS - load the items details from the API and pass it to the page.
+  * Following the `Detail page` design, create a page with the Catch-all Segment to show details of a certain item. This page can use either layout configuration (Route groups may be helpful) and does not need to contain all text content from the design. 
+  * This page should be Server-Side Rendered with NextJS - load the items details from the API and pass it to the page.
 
 # Submission
 
