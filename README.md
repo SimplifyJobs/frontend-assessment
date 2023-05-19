@@ -6,7 +6,7 @@ Hello! If you're reading this then we're likely in the process of considering yo
 
 We'd like to know a little more about how you work, so this repository contains a short (approximately 2-3 hours) exercise that you can use demonstrate your skills and abilities.
 
-We know that 2-3 hours is not a lot of time and you may not be able to complete everything you'd like, and will feel pressure to do more. We're not looking for perfection in the UI and are not evaluating your skills as a designer so be sure to focus on functionality and showing your knowledge of NextJS and React best practices. Best of luck!
+We know that 2-3 hours is not a lot of time and you may not be able to complete everything you'd like, and will feel pressure to do more. We're not looking for perfection in the UI and are not evaluating your skills as a designer so be sure to focus on functionality and showing your knowledge of NextJS and React best practices. Of course if time permits, feel free to polish the UI and flex any design skills. Best of luck!
 
 # Overview
 
