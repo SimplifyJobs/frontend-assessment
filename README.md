@@ -49,4 +49,4 @@ The designs for the three pages can be found in this [Figma file](https://www.fi
 
 # Submission
 
-When you're done just email us the link to your forked repo and we'll run it locally. If you have any additional explanation you want to add, feel free include it in the project README.
+When you're done just zip the project and email it back to us -- be sure to keep your repository private. Include instructions for running the app locally in the README as well as any additional explanation you'd like to add. If you used any AI tooling during this take home be sure to outline which tools and how you used them.
