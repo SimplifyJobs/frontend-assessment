@@ -19,7 +19,7 @@ The goal of this exercise is to evaulate your ability to:
 
 # Instructions
 
-Fork this repo to get started. We've provided a starter project for you with React 18, Typescript, [NextJS 13](https://beta.nextjs.org/docs/getting-started), [TailwindCSS](https://tailwindcss.com/docs/installation), and [SWR](https://swr.vercel.app/docs/getting-started) already added and default configured. Be sure to read through the docs for these libraries if you are unfamiliar. You're also welcome to use any other packages if you'd like, just be sure to explain why you decided to use them and meet all the project requirements with the provided stack.
+Clone this repo to get started. We've provided a starter project for you with React 18, Typescript, [NextJS 13](https://beta.nextjs.org/docs/getting-started), [TailwindCSS](https://tailwindcss.com/docs/installation), and [SWR](https://swr.vercel.app/docs/getting-started) already added and default configured. Be sure to read through the docs for these libraries if you are unfamiliar. You're also welcome to use any other packages if you'd like, just be sure to explain why you decided to use them and meet all the project requirements with the provided stack.
 
 1. Mock ecommerce API
 
